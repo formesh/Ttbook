@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/myzzp.min.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+	<script type="text/javascript" src="js/Progressbar.js"></script>
+
+	<body style="background: #000;">
+		<section>
+			<div id="box2"></div>
+		</section>
+	</body>
+	<script>
+		var addAudio = new addAudio({
+			dom: document.getElementById("box1"),
+			music:"http://img1.zazhipu.com/tingzazhi/Unit%203%E6%B5%8B%E8%AF%95%E5%8D%B7.mp3",
+			progressWrapbg:"#EBE8E8",
+			progressWrapspanbg:"rgb(114, 223, 255)",
+			progressbg:"rgb(114, 223, 255)"
+
+		});
+//		const name = 'lux'
+//  	console.log(`hello ${name}`) //hello lux
+//  	const template = `<div>
+//	        <span>hello world</span>
+//	    </div>`
+//		let address = '北京海淀区'
+//	    let name = 'lala'
+//	    let str = `${name}在${address}上班...`
+//	    // 模拟一个方法 myTemplate(str) 最终输出 'lala在北京海淀区上班...'
+//	    function myTemplate(str) {
+//	        // try it
+//	    }
+//	    // lala在北京海淀区上班...
+//	    console.log(myTemplate(str)) 
+		const name = 'cc'
+	    const gender = 'male'
+	    const hobby = 'basketball'
+	    // 实现tag最终输出 '姓名：**cc**，性别：**male**，爱好：**basketball**'
+	    function tag(strings) {
+	        // do it
+	    }
+	    const str = tag`姓名：${name}，性别：${gender}，爱好：${hobby}`
+	    console.log(str) // '姓名：**cc**，性别：**male**，爱好：**basketball**'
+
+
+	</script>
+
+</html>
